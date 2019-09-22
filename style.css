@@ -21,28 +21,21 @@ h1 {
 
 
 p {
-	font-weight: 600;
+    font-weight: 600;
+    color: black;   
 }
 
-#first {
-	margin-top: 10px;
-	color: black;
-}
 
-#second {
-	color: #51DF70;
-}
-#third {
-	color: #025F70;
-	margin-bottom: 30px;
-}
+
+
+
 
 #enter {
 	border: none;
 	padding: 5px 15px;
 	border-radius: 5px;
-	color: rgb(172, 218, 228);
-	background-color: rgb(8,8,8);
+	color: black ;
+	background-color: rgb(255, 165, 0 , 0.8) ;
 	font-weight: normal;
 }
 
@@ -52,23 +45,24 @@ p {
 
 ul {
 	text-align: left;
-	margin-top: 20px;
+    margin-top: 20px;
+
 }
 
 li{
 	list-style: none;
-	padding: 10px 20px;
+	padding: 1rem 1.5rem;
 	color: #fff;
 	text-transform: capitalize;
 	font-weight: 600;
 	border: 2px solid #f8ca73;
 	border-radius: 5px;
 	margin-bottom: 10px;
-	background: #4EB9cd;
+	background: white;
 }
 
 li:hover{
-	background: #76CFE0;
+	background: rgb(255, 165, 0, 0.9);
 }
 
 li > button {
@@ -76,7 +70,7 @@ li > button {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color: black;
 	font-weight: 800;
 }
 
@@ -88,7 +82,7 @@ input {
 }
 
 .done{
-	background: #51df70 !important;
+	background: orange !important;
 	color: #fff;
 }
 

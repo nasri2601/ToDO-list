@@ -1,7 +1,7 @@
-var enterButton = document.getElementById("enter");
-var input = document.getElementById("userInput");
-var ul = document.querySelector("ul");
-var item = document.getElementsByTagName("li");
+const enterButton = document.getElementById("enter");
+const input = document.getElementById("userInput");
+const ul = document.querySelector("ul");
+const item = document.getElementsByTagName("li");
 
 
 
@@ -23,7 +23,7 @@ function createListElement() {
 
 	li.addEventListener("click", crossOut);
 
-	var dBtn = document.createElement("button");
+	const dBtn = document.createElement("button");
 	dBtn.appendChild(document.createTextNode("X"));
 	li.appendChild(dBtn);
 	dBtn.addEventListener("click", deleteListItem);
