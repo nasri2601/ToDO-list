@@ -1,3 +1,6 @@
+`use strict`;
+
+
 const enterButton = document.getElementById("enter");
 const input = document.getElementById("userInput");
 const ul = document.querySelector("ul");
