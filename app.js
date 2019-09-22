@@ -13,8 +13,8 @@ function inputLength() {
 function createListElement() {
 
 	var li = document.createElement("li");
-	li.appendChild(document.createTextNode(input.value));
-	ul.appendChild(li);
+	li.append(document.createTextNode(input.value));
+	ul.append(li);
 	input.value = "";
 
 	function crossOut() {
@@ -24,8 +24,8 @@ function createListElement() {
 	li.addEventListener("click", crossOut);
 
 	const dBtn = document.createElement("button");
-	dBtn.appendChild(document.createTextNode("X"));
-	li.appendChild(dBtn);
+	dBtn.append(document.createTextNode("X"));
+	li.append(dBtn);
 	dBtn.addEventListener("click", deleteListItem);
 
 	function deleteListItem() {
