@@ -11,3 +11,6 @@ Les fonctionalités que j'ai ajouté :
  1. La suppression de la tâche 
  2. Voir si la tache est fini avec une couleur differente
  3. Que le cache de l'input se clear à chaque ajout
+  
+  >>En formation avec l'organisme Simplon et Yes We Web pour devenir un futur devellopeur Web
+
